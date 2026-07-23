@@ -1,1 +1,19 @@
+#!/bin/bash
 
+clear
+
+CURRENT_DATE=$(date)
+HOST_NAME=$(hostname)
+USER=$(whoami)
+
+echo "================================"
+echo "Infrastructure Bootcamp"
+echo "================================"
+
+echo "Add your name: "
+read name
+echo "Welcome $name!!"
+
+echo "Today is: $CURRENT_DATE"
+echo "Hostname: $HOST_NAME"
+echo "Current User: $USER"
